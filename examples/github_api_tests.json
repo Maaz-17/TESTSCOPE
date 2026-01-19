@@ -1,0 +1,37 @@
+{
+  "test_suite": {
+    "name": "Additional API Tests",
+    "tests": [
+      {
+        "name": "Get comments from JSONPlaceholder",
+        "type": "http",
+        "method": "GET",
+        "url": "https://jsonplaceholder.typicode.com/comments?postId=1",
+        "expect": {
+          "status": 200,
+          "contains": "email"
+        }
+      },
+      {
+        "name": "Get todos",
+        "type": "http",
+        "method": "GET",
+        "url": "https://jsonplaceholder.typicode.com/todos/1",
+        "expect": {
+          "status": 200,
+          "contains": "userId"
+        }
+      },
+      {
+        "name": "Get albums",
+        "type": "http",
+        "method": "GET",
+        "url": "https://jsonplaceholder.typicode.com/albums",
+        "expect": {
+          "status": 200,
+          "contains": "title"
+        }
+      }
+    ]
+  }
+}
