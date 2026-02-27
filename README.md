@@ -1,6 +1,6 @@
 # TestScope - Automated Test Framework
 
-![CI Build](https://github.com/Maaz-17/TESTSCOPE/workflows/CI%20Build%20and%20Test/badge.svg)
+
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://isocpp.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
